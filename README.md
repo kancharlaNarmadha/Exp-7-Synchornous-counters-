@@ -1,3 +1,5 @@
+# NAME: KANCHARLA NARMADHA
+# REGISTER NUMBER: 212222110016
 # Exp-6-Synchornous-counters - up counter and down counter 
 ### AIM: To implement 4 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
@@ -65,12 +67,8 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 # PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: Knacharla Narmadha
-RegisterNumber:  212222110016
-*/
-# UP COUNTER
+
+### UP COUNTER
 ```
 module upcounter(clk,a);
 input clk;
@@ -85,7 +83,7 @@ end
 endmodule
 ```
 
-# DOWN COUNTER
+### DOWN COUNTER
 ```
 module downcounter(clk,a);
 input clk;
@@ -112,6 +110,16 @@ endmodule
 
 ![rtl of downcounter](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/315464d5-97ad-4f8d-b118-6ff3faf4291b)
 
+# TRUTH TABLE :
+
+### UP COUNTER:
+![image](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/1ee424ba-6a1e-451b-8bf4-307caf2598dd)
+
+### DOWN COUNTER:
+![image](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/c4cba9d3-8790-482f-84fb-0c6edc763111)
+
+
+
 
 
 
@@ -127,15 +135,6 @@ endmodule
 
 ![waveform of downcounters](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/9ef714ab-8fb9-4061-abe6-a86573bafd75)
 
-
-
-# TRUTH TABLE :
-
-### UP COUNTER:
-![image](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/1ee424ba-6a1e-451b-8bf4-307caf2598dd)
-
-### DOWN COUNTER:
-![image](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/c4cba9d3-8790-482f-84fb-0c6edc763111)
 
 
 
