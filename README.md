@@ -87,14 +87,14 @@ endmodule
 
 # DOWN COUNTER
 ```
-module upcounter(clk,a);
+module downcounter(clk,a);
 input clk;
 output reg[3:0]a;
 always@(posedge clk)
 begin
-a[3]=(a[2] & a[1] & a[0]) ^ a[3];
-a[2]=(a[1] & a[0]) ^ a[2];
-a[1]=(a[0] ^ a[1]);
+a[3]=(~a[2] & ~a[1] & ~a[0])^ a[3];
+a[2]=(~a[1] & ~a[0]) ^ a[2];
+a[1]=(~a[0] ^ a[1]);
 a[0]=1 ^ a[0];
 end
 endmodule
