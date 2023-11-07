@@ -36,8 +36,6 @@ The Q outputs of each flip-flop will serve as the respective binary bits of the 
 Four-bit “Up” Counter
 ![image](https://user-images.githubusercontent.com/36288975/169644758-b2f4339d-9532-40c5-af40-8f4f8c942e2c.png)
 
-
-
 ## DOWN COUNTER 
 
 As well as counting “up” from zero and increasing or incrementing to some preset value, it is sometimes necessary to count “down” from a predetermined value to zero allowing us to produce an output that activates when the zero count or some other pre-set value is reached.
@@ -64,8 +62,6 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 8.End the module.
 
-
-
 # PROGRAM 
 
 ### UP COUNTER
@@ -82,7 +78,6 @@ a[0]=1 ^ a[0];
 end
 endmodule
 ```
-
 ### DOWN COUNTER
 ```
 module downcounter(clk,a);
@@ -97,10 +92,6 @@ a[0]=1 ^ a[0];
 end
 endmodule
 ```
-
-
-
-
 # RTL LOGIC UP COUNTER  :
 ![image](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/616f216c-9580-49ce-9a66-b2e274a49e1b)
 
@@ -117,28 +108,12 @@ endmodule
 
 ### DOWN COUNTER:
 ![image](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/c4cba9d3-8790-482f-84fb-0c6edc763111)
-
-
-
-
-
-
-
-
-
 # TIMING DIGRAMS FOR COUNTER 
 
 ### UP COUNTER:
 ![image](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/b3428820-33cc-4745-8e08-1b7be5df6c47)
 
 ### DOWN COUNTER:
-
 ![waveform of downcounters](https://github.com/kancharlaNarmadha/Exp-7-Synchornous-counters-/assets/119559316/9ef714ab-8fb9-4061-abe6-a86573bafd75)
-
-
-
-
-
-
 ### RESULTS :
 Thus Synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
